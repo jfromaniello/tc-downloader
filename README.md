@@ -19,7 +19,7 @@ Configuration file (./config/config.json):
 		"feedPath" : "/guestAuth/feed.html",
 		"feedParams" : "itemsType=builds&buildStatus=successful&userKey=guest",
 		"artifactZipPath" : "repository/downloadAll/",
-	    "username" : "mgentile",
-	    "password" : "mg030696"
+	    "username" : "myuser",
+	    "password" : "mypass"
 	}
 }
