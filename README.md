@@ -1,15 +1,26 @@
+##Usage
+
+```js
 var downloader = require("tc-downloader");
 
 downloader.init();
-
 downloader.start();
 
+//and then stop it
 downloader.stop();
+```
 
+##With windser:
 
+```bash
+npm run-script install-windows-service
+```
+
+##Configuration
 
 Configuration file (./config/config.json):
 
+```js
 {
   "retryIntervalSeconds" : 60,
 	"downloadFolder" : "./downloads/",
@@ -23,3 +34,5 @@ Configuration file (./config/config.json):
 	    "password" : "mypass"
 	}
 }
+```
+
