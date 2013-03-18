@@ -9,7 +9,12 @@
     "email": "info@nodejitsu.com"
   },
   "dependencies": {
-    "nconf": "0.6.7"
+    "nconf": "0.6.7",
+    "fs": "0.0.0",
+    "url": "~0.7.9",
+    "http": "0.0.0",
+    "lazy": "~1.0.8",
+    "xml2js": "~0.2.6"
   },
   "main": "index"
 }
